@@ -1,0 +1,17 @@
+{
+  "name": "powerbuy-cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "Powerbuy Cypress Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests-headless": "npx cypress run",
+    "triggerAllTests-headed": "npx cypress run --headed",
+    "triggerAllTests-chrome": "npx cypress run --browser chrome",
+    "triggerAllTests-test": "npx cypress run --spec cypress/integration/test/*"
+  },
+  "author": "Suresh Pappala",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
